@@ -69,7 +69,7 @@ Legal documents like rental agreements, employment contracts, and loan agreement
 - **Analysis Page:** Left panel → clause list | Right panel → chatbot interaction  
 - Hamburger menu for navigating multiple uploaded documents  
 
-*(Add screenshots or wireframes here)*  
+![Clause Analysis Page]([https://example.com/your-image.png](https://github.com/Abhishekkr206/LegalBoi/blob/main/public/readmeimg.png))  
 
 ---
 
