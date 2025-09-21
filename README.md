@@ -1,12 +1,82 @@
-# React + Vite
+# LegalBoi – AI Legal Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**LegalBoi** is an AI-powered tool that simplifies complex legal documents into clear, accessible guidance. It helps users understand contract clauses, assess risks, and get personalized advice via an interactive chatbot.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Project Overview**
 
-## Expanding the ESLint configuration
+Legal documents like rental agreements, employment contracts, and loan agreements are often filled with confusing jargon. Most people struggle to understand them, which can lead to financial or legal risks. **LegalBoi** bridges this gap by providing:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Clause-by-clause summaries  
+- Risk assessment indicators  
+- Recommendations and alternative wording  
+- Chatbot interaction for user queries  
+
+---
+
+## **Features**
+
+- Upload PDFs, DOC/DOCX, or TXT files containing legal contracts  
+- Clause extraction and summarization powered by **Google Vertex AI**  
+- Interactive **chatbot powered by Gemini API** for clarifying clauses  
+- Highlighted clause risk levels (Low, Medium, High) with intuitive icons  
+- Hamburger menu for navigating uploaded documents  
+- Responsive UI built with **React.js** and **Tailwind CSS**  
+
+---
+
+## **Technologies Used**
+
+**Frontend:**  
+- React.js → Web app interface (upload page, clause view, chatbot)  
+- Tailwind CSS → Styling and responsive layout  
+- Lucide Icons → Risk indicators and navigation icons  
+
+**Backend & AI Processing:**  
+- Node.js / Express.js → File upload, processing, and API server  
+- JWT (JSON Web Tokens) → Secure authentication  
+- Google Vertex AI → Clause extraction and summarization  
+- Google Gemini API → Chatbot for clause explanation  
+
+**Storage & Database:**  
+- Firebase Storage → Store uploaded PDF/DOCX files  
+- Firebase Firestore → Store clause metadata, user sessions, and chat history  
+
+**Authentication & Hosting:**  
+- Firebase Authentication (optional) → User login  
+- Firebase Hosting → Deploy React frontend  
+
+**Other Tools:**  
+- PDF.js / Docx Parser → Extract text from uploaded contracts  
+- LangChain / Prompt Engineering (optional) → Improved AI context handling  
+
+---
+
+## **How It Works**
+
+1. User uploads a legal document on the **Upload Page**.  
+2. Backend stores the file in **Firebase Storage**.  
+3. **Vertex AI** extracts clauses and summarizes them.  
+4. Summarized clauses and metadata are stored in **Firestore**.  
+5. User navigates the clause list (left panel) and interacts with **LegalBoi chatbot** (right panel) for Q&A.  
+6. Chatbot uses **Gemini API** to provide clear answers.  
+
+---
+
+## **Demo Screenshots / Wireframes**
+
+- **Upload Page:** Drag-and-drop or choose file  
+- **Analysis Page:** Left panel → clause list | Right panel → chatbot interaction  
+- Hamburger menu for navigating multiple uploaded documents  
+
+*(Add screenshots or wireframes here)*  
+
+---
+
+## **Setup & Installation**
+
+1. Clone the repository:  
+```bash
+git clone https://github.com/yourusername/legalboi.git
+cd legalboi
