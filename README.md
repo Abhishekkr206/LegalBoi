@@ -1,4 +1,4 @@
-Demo link - https://legalboi.vercel.app/
+# Demo link - https://legalboi.vercel.app/
 
 # LegalBoi – AI Legal Assistant
 
