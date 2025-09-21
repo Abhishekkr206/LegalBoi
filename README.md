@@ -1,3 +1,5 @@
+Demo link - https://legalboi.vercel.app/
+
 # LegalBoi – AI Legal Assistant
 
 **LegalBoi** is an AI-powered tool that simplifies complex legal documents into clear, accessible guidance. It helps users understand contract clauses, assess risks, and get personalized advice via an interactive chatbot.
