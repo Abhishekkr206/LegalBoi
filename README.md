@@ -42,10 +42,7 @@ Legal documents like rental agreements, employment contracts, and loan agreement
 **Storage & Database:**  
 - Firebase Storage → Store uploaded PDF/DOCX files  
 - Firebase Firestore → Store clause metadata, user sessions, and chat history  
-
-**Authentication & Hosting:**  
-- Firebase Authentication (optional) → User login  
-- Firebase Hosting → Deploy React frontend  
+ 
 
 **Other Tools:**  
 - PDF.js / Docx Parser → Extract text from uploaded contracts  
@@ -80,3 +77,6 @@ Legal documents like rental agreements, employment contracts, and loan agreement
 ```bash
 git clone https://github.com/yourusername/legalboi.git
 cd legalboi
+npm install
+npm run dev
+
