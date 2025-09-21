@@ -79,7 +79,7 @@ Shows how the frontend, backend, storage, database, and AI services interact.
 ![LegalBoi Demo](https://raw.githubusercontent.com/Abhishekkr206/LegalBoi/main/public/Architecturediagram.jpeg)
 
 **Workflow / Use Case Diagram:**
-
+Shows the workflow
 ![LegalBoi Demo](https://raw.githubusercontent.com/Abhishekkr206/LegalBoi/blob/main/public/UseCaseDiagram.jpeg)
 
 ---
