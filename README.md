@@ -76,10 +76,10 @@ Legal documents like rental agreements, employment contracts, and loan agreement
 
 **Architecture Diagram:**  
 Shows how the frontend, backend, storage, database, and AI services interact.
-![LegalBoi Demo](https://raw.githubusercontent.com/Abhishekkr206/LegalBoi/main/public/Architecturediagram.png)
+![LegalBoi Demo](https://raw.githubusercontent.com/Abhishekkr206/LegalBoi/main/public/Architecturediagram.jpeg)
 
 **Workflow / Use Case Diagram:**
-![LegalBoi Demo](https://raw.githubusercontent.com/Abhishekkr206/LegalBoi/main/public/use-caseDiagram.png)
+![LegalBoi Demo](https://raw.githubusercontent.com/Abhishekkr206/LegalBoi/main/public/use-caseDiagram.jpeg)
 
 ---
 
