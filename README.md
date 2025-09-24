@@ -89,7 +89,7 @@ Shows the workflow
 
 1. Clone the repository:  
 ```bash
-git clone https://github.com/yourusername/legalboi.git
+git clone https://github.com/Abhishekkr206/legalboi.git
 cd legalboi
 npm install
 npm run dev
